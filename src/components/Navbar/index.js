@@ -306,9 +306,10 @@ Projects
 <MobileLink href="#education" onClick={() => {setOpen(!open)}}>
 Education
 </MobileLink>
-<GithubButton style={{padding: "10px 16px", background: `${theme.primary}`, color: "white", width: "max-content"}} href={Bio.github} target="_blank">Github Profile
+<a href={Bio.github}><GithubButton style={{padding: "10px 16px", background: `${theme.primary}`, color: "white", width: "max-content"}} href={Bio.github} target="_blank">Github Profile
 
-</GithubButton>
+</GithubButton></a>
+
             </MobileMenu>
         )
     }

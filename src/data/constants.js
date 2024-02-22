@@ -16,7 +16,7 @@ export const Bio = {
     ],
     description:
       "Passionate about crafting seamless web experiences. From front-end with React.js to robust server-side solutions with Node.js and MongoDB, I relish the challenge of turning ideas into functional, scalable & efficient applications.", description2: "My data science background brings valuable skills such as analytics, problem-solving, user-centric thinking, optimization, machine learning integration, and collaborative abilities to the role.", description3: "Let's connect and create something amazing together!",
-    github: "https://github.com/rishavchanda",
+    github: "https://github.com/sinxhanant",
     resume:
       "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/anantsinxh/",
