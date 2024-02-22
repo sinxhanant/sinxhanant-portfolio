@@ -249,7 +249,7 @@ export const Bio = {
     },
     {
       id: 9,
-      title: "SUP? Real Time Chat Application",
+      title: "SUP? Real Time Chat",
   
       description:
         "Real Time Chat App, built with React, Socket.IO, Node.js, Express, and MongoDB, delivers instant messaging with a responsive UI. Featuring secure user authentication, dynamic updates, and efficient data storage.",
@@ -315,7 +315,7 @@ export const Bio = {
     },
     {
       id: 3,
-      title: "Stock-Market-Prediction Model",
+      title: "Stock-Market-Analysis Model",
 
       description:
         "LSTM stock price prediction AI/ML model utilizes Long Short-Term Memory neural networks to forecast future stock prices. By analyzing historical data and learning complex patterns, it provides accurate predictions for traders and investors. ",

@@ -4,6 +4,7 @@ import {Link as LinkR} from "react-router-dom"
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { useTheme } from 'styled-components';
+import { Bio } from "../../data/constants"
 
 const GithubButton = styled.button`
 background-color: transparent;
@@ -290,22 +291,22 @@ export default function Navbar() {
 
         open && (
             <MobileMenu open={open}>
-<MobileMenuLinks href="#about" onClick={() => {setOpen(!open)}}>
+<MobileLink href="#about" onClick={() => {setOpen(!open)}}>
 About
-</MobileMenuLinks>
-<MobileMenuLinks href="#skills" onClick={() => {setOpen(!open)}}>
+</MobileLink>
+<MobileLink href="#skills" onClick={() => {setOpen(!open)}}>
 Skills
-</MobileMenuLinks>
-<MobileMenuLinks href="#certifications" onClick={() => {setOpen(!open)}}>
+</MobileLink>
+<MobileLink href="#certifications" onClick={() => {setOpen(!open)}}>
 Certifications
-</MobileMenuLinks>
-<MobileMenuLinks href="#projects" onClick={() => {setOpen(!open)}}>
+</MobileLink>
+<MobileLink href="#projects" onClick={() => {setOpen(!open)}}>
 Projects
-</MobileMenuLinks>
-<MobileMenuLinks href="#education" onClick={() => {setOpen(!open)}}>
+</MobileLink>
+<MobileLink href="#education" onClick={() => {setOpen(!open)}}>
 Education
-</MobileMenuLinks>
-<GithubButton style={{padding: "10px 16px", background: `${theme.primary}`, color: "white", width: "max-content"}} href="/" target="_blank">Github Profile
+</MobileLink>
+<GithubButton style={{padding: "10px 16px", background: `${theme.primary}`, color: "white", width: "max-content"}} href={Bio.github} target="_blank">Github Profile
 
 </GithubButton>
             </MobileMenu>
