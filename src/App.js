@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
     <ThemeProvider theme={ darkTheme }>
-      <HashRouter>
+      <Router>
     <Navbar />
       <Body>
         <Hero />
@@ -53,7 +53,7 @@ function App() {
         </Wrapper>
         
       </Body>
-      </HashRouter>
+      </Router>
       </ThemeProvider>
     </div>
   );

@@ -116,7 +116,6 @@ const Projects = ( {Projects} )=> {
 <Wrapper>
     <Title>Projects</Title>
     <Desc>
-        Here are some of the projects that i have worked on:
     </Desc>
 
     <ToggleGroup>

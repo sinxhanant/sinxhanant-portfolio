@@ -105,7 +105,7 @@ box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 border: 3px solid ${({theme})=>theme.card};
 `;
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ( {project} ) => {
   return (
    <Card>
 <img src={project.image} style={{
