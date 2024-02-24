@@ -158,6 +158,8 @@ export const Bio = {
       ],
     },
   ];
+
+  
   
   export const experiences = [
     {
@@ -165,7 +167,7 @@ export const Bio = {
       img: "https://ittrainingclasses.in/images/logo.png",
       role: "Full Stack Web Development",
       company: "ITT Training Classes, Gurugram",
-      date: "Aug '23 - Jan '24",
+      date: "Jan '23 - Aug '23",
       desc: "Gained expertise in full-stack and frontend development, incorporating modern design standards and implementing efficient server-side solutions. My skills cover the entire web development spectrum, ensuring seamless user experiences through dynamic interfaces and robust backend functionalities, meeting contemporary design requirements with precision and innovation.",
 
       skills: [
@@ -200,6 +202,34 @@ export const Bio = {
     },
 
   ];
+  
+
+
+  export const exps = [
+    {
+      id: 0,
+ 
+      role: "Full Stack Web Development Intern",
+      company: "Inclination IT Innovation Pvt. Ltd., Gurugram",
+      date: "Aug '23 - Jan '24",
+      desc: "Developed independent end-to-end tailored web development projects, with seamless integration among the components, while also maintaining responsiveness.",
+
+      skills: [
+        "ReactJS",
+        "NodeJs",
+        "ExpressJs",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "AWS",
+      ],
+    },
+   
+
+  ];
+  
+
+
   
   export const education = [
     {

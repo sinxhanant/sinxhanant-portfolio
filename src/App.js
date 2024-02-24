@@ -11,7 +11,7 @@ import Projects from './components/Projects/index.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/Footer/Footer.js';
 import './App.css';
-
+import Exp from './components/Exp/index.js';
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -39,6 +39,8 @@ function App() {
           <Experience />
           <br></br>
           <br></br>
+          <Exp />
+          <br></br> <br></br> <br></br>
           <br></br>
           </Wrapper>
           <br></br>

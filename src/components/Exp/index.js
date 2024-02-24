@@ -1,14 +1,14 @@
 
 import React from 'react'
 import styled from 'styled-components'
-import { experiences } from '../../data/constants.js';
+import { exps } from '../../data/constants.js';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ExperienceCard from '../Cards/ExperienceCard.js';
+import ExpCard from '../Cards/ExpCard.js';
 
 
 
@@ -68,22 +68,22 @@ justify-content: center;
 gap: 12px;
 `;
 
-export default function Experience() {
+export default function Exp() {
   return (
     <Container id="certifications">
     <Wrapper>
-        <Title>Certifications</Title>
+        <Title>Experience</Title>
        
         <TimelineSection>
             <Timeline>
-                {experiences.map((experience, index) => (
+                {exps.map((exp, index) => (
                     <TimelineItem>
                         <TimelineSeparator>
                             <TimelineDot variant="outlined" color="secondary" />
-                            {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                            {index !== exps.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                         </TimelineSeparator>
                         <TimelineContent sx={{ py: '12px', px: 2 }}>
-                            <ExperienceCard experience={experience}/>
+                            <ExpCard exp={exp}/>
                         </TimelineContent>
                     </TimelineItem>
                 ))}

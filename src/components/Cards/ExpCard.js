@@ -127,13 +127,13 @@ color: ${({theme})=> theme.text_primary + 99};
 
 
 
-const ExperienceCard = ({ experience })=> {
+const ExpCard = ({ exp })=> {
   return (
       
       <Card>
 <Top>
    
-<img src={experience?.img} alt="" style={{
+    <img src={exp?.img} style={{
 
 height: "50px",
 backgroundColor: "#000",
@@ -144,25 +144,23 @@ marginTop: "4px",
     height: "40px"
 },
     }}/>
-
-
     <Body>
  
-        <Role>{experience?.role}</Role>
-        <Company>{experience?.company}</Company>
-        <Duration>{experience?.date}</Duration>
+        <Role>{exp?.role}</Role>
+        <Company>{exp?.company}</Company>
+        <Duration>{exp?.date}</Duration>
     </Body>
 </Top>
 
-<Description>{experience?.desc}
-{experience?.skills && 
+<Description>{exp?.desc}
+{exp?.skills && 
 <>
 <br/>
 <Skills>
     <b>Skills:</b>
     <ItemWrapper>
 
-        {experience?.skills.map((skill) => (
+        {exp?.skills.map((skill) => (
             <Skill>• {skill} </Skill>
         ))}
     </ItemWrapper>
@@ -172,8 +170,8 @@ marginTop: "4px",
 }
 </Description>
 
-{experience?.doc && 
-<a href={experience?.doc} target="new">
+{exp?.doc && 
+<a href={exp?.doc} target="new">
 
 
     </a>
@@ -183,4 +181,4 @@ marginTop: "4px",
   )
 }
 
-export default ExperienceCard;
+export default ExpCard;
